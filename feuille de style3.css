@@ -23,3 +23,7 @@ img:hover{
         transform:rotate(0deg)
     }
 }
+p{
+    text-align: center;
+    justify-content: center;
+}
