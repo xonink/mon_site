@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(199, 199, 142);
+}
+h1{
+    background-image: url(606677_66e0140eed045.webp);
+    background-size: 100%;
+    padding: 10%;
+    margin-left: auto;
+}
+img{
+    height: 100px;
+    font-weight: 100px;
+}
+img:hover{
+    animation: move 2s infinite;
+}
+@keyframes move {
+    0%{transform:rotate(0deg)  
+    } 
+    50%{
+        transform:rotate(360deg)
+    }
+    100%{
+        transform:rotate(0deg)
+    }
+}

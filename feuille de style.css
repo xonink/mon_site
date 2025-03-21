@@ -1,0 +1,71 @@
+h1 {
+    color: rgb(89, 0, 255);
+    text-align: center;
+    font-family: "Emblema One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+a{
+    color:rgb(255, 166, 0);
+    display: inline-block;
+}
+h4 {
+    color:rgb(0, 255, 64);
+    }
+ol,ul {
+    color:rgb(255, 0, 0)
+    }
+  h4,h3 {
+    font-family: "Rock Salt", cursive;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(126, 123, 100);
+    text-align: justify;
+  }
+h2,h3,p,ol,ul {
+    text-align:justify;
+}
+h1{
+    background-image: url(606677_66e0140eed045.webp);
+    background-size: 100%;
+    padding: 10%;
+    margin-left: auto;
+}
+a:hover {
+    color:red;
+}
+
+a:active{
+    color: rgb(225, 0, 255);
+    }
+
+body{
+    background-color: rgb(199, 199, 142);
+}
+
+.conteneur{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around ;
+    height: 200px;
+    border: 20px;
+    font-family: "Emblema One", system-ui;
+    font-weight: 200;
+    font-style: normal;
+}
+img:hover{
+    animation: move 2s infinite;
+}
+@keyframes move {
+    0%{transform:rotate(0deg)  
+    } 
+    50%{
+        transform:rotate(360deg)
+    }
+    100%{
+        transform:rotate(0deg)
+    }
+} 
+p{
+    background-color: rgb(211, 163, 101);
+}
